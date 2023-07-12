@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div>
+        <form action="/myapi" method="POST">
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="password" name="password" required minlength="5">
+
+            <label for="dog">Dog</label>
+            <input type="radio" id="dog" name="dog" value="dog" />
+
+            <label for="cat">Cat</label>
+            <input type="radio" id="cat" name="cat" value="cat" />
+
+            <label for="cow">Cow</label>
+            <input type="radio" id="cow" name="cow" value="cow" />
+
+            <button>Submit</button>
+
+            
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
